@@ -1,7 +1,7 @@
 # codegen engine
 
 
-<img src="levi_chibi.jpeg" alt="Nami Activation Plot" width="100%">
+<img src="naruto.jpeg" alt="Nami Activation Plot" width="100%">
 
 
 this is a helper repo for [deriv](https://github.com/kandarpa02/py-deriv.git), 

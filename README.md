@@ -4,8 +4,8 @@
 <img src="levi_chibi.jpeg" alt="Nami Activation Plot" width="100%">
 
 
-this is a helper repo for [deriv](https://github.com/kandarpa02/py-deriv.git)
-**codegen engine** only works with `deriv.array` object, it fuses a python function which takes `deriv.array`, to run code with minimum python overhead
+this is a helper repo for [deriv](https://github.com/kandarpa02/py-deriv.git), 
+codegen engine only works with `deriv.array` object, it fuses a python function which takes `deriv.array`, to run code with minimum python overhead
 
 - minimal explanation
 ```python

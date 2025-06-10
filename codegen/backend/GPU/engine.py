@@ -1,4 +1,4 @@
-from codegen.backend.CPU.numerics import OPERATIONS
+from codegen.backend.GPU.numerics import OPERATIONS
 
 def is_unary(op):
     func = OPERATIONS[op]

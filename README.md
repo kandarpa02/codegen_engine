@@ -9,7 +9,7 @@ codegen engine only works with `deriv.array` object, it fuses a python function 
 
 - minimal explanation
 ```python
-from codegen.backend.CPU.egnine import XLR
+from codegen.backend.CPU.egnine import compact
 from deriv import array
 
 x = array(4)
@@ -21,7 +21,7 @@ def func(x, y, z):
     h = (g) * z
     return h
 
-f2, code = XLR(func(x, y, z), debug=True) # debug = True to return the generated function
+f2, code = compact(func(x, y, z), debug=True) # debug = True to return the generated function
 
 print(code)
 
